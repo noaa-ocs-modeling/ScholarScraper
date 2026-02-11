@@ -2,7 +2,7 @@
 A Python tool to automatically track, filter, and categorize research publications from Google Scholar for a specific list of authors.
 
 
-## Project Structure
+## File Structure
 
 - **`main.py`**: The entry point. It loads `config.json`, runs the scraper, and saves the final text report.
 - **`scraper.py`**: The core logic engine. It handles API requests, filters by year, and categorizes papers based on your keywords.
@@ -30,7 +30,7 @@ pip install -r requirements.txt
 ```
 
 ### 4. Configuration
-Open config.json and fill in your specific details:
+Open config.conf and fill in your specific details:
 
 api_key: Your SerpApi key.
 
