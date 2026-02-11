@@ -6,7 +6,7 @@ A Python tool to automatically track, filter, and categorize research publicatio
 
 - **`main.py`**: The entry point. It loads `config.json`, runs the scraper, and saves the final text report.
 - **`scraper.py`**: The core logic engine. It handles API requests, filters by year, and categorizes papers based on your keywords.
-- **`config.json`**: Your settings file (API keys, Author IDs, and keyword lists).
+- **`config.conf`**: Your settings file (API keys, Author IDs, and keyword lists).
 - **`requirements.txt`**: Contains the necessary Python libraries for the project.
 
 ---
